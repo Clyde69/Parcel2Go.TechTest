@@ -21,7 +21,7 @@ namespace Parcel2Go.TechTest.Repositories.Tests
             var objectUnderTest = new HardCodedInventoryRepository();
             var expectedResults = new Dictionary<InventoryType, InventoryPrice>();
             expectedResults.Add(InventoryType.ServiceA, new InventoryPrice(InventoryType.ServiceA, new List<Price> { new Price(1, 10), new Price(3, 35) }));
-            expectedResults.Add(InventoryType.ServiceB, new InventoryPrice(InventoryType.ServiceB, new List<Price> { new Price(1, 10), new Price(3, 35) }));
+            expectedResults.Add(InventoryType.ServiceB, new InventoryPrice(InventoryType.ServiceB, new List<Price> { new Price(1, 12), new Price(3, 35) }));
             expectedResults.Add(InventoryType.ServiceC, new InventoryPrice(InventoryType.ServiceC, new List<Price> { new Price(1, 15) }));
             expectedResults.Add(InventoryType.ServiceD, new InventoryPrice(InventoryType.ServiceD, new List<Price> { new Price(1, 25) }));
             expectedResults.Add(InventoryType.ServiceF, new InventoryPrice(InventoryType.ServiceF, new List<Price> { new Price(1, 8), new Price(2, 15) }));
