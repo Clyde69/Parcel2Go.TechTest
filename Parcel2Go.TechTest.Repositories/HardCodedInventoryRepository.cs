@@ -12,7 +12,7 @@ namespace Parcel2Go.TechTest.Repositories
             {
                 var results = new List<InventoryPrice>() {
                     new InventoryPrice(InventoryType.ServiceA, new List<Price>{ new Price(1, 10), new Price(3, 25) }),
-                    new InventoryPrice(InventoryType.ServiceB, new List<Price>{ new Price(1, 12), new Price(3, 20) }),
+                    new InventoryPrice(InventoryType.ServiceB, new List<Price>{ new Price(1, 12), new Price(2, 20) }),
                     new InventoryPrice(InventoryType.ServiceC, new List<Price>{ new Price(1, 15) }),
                     new InventoryPrice(InventoryType.ServiceD, new List<Price>{ new Price(1, 25) }),
                     new InventoryPrice(InventoryType.ServiceF, new List<Price>{ new Price(1, 8), new Price(2, 15) })

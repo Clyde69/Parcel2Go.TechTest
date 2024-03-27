@@ -39,8 +39,8 @@ namespace Parcel2Go.TechTest.Services
             return totalItems.Select(item => _costCalculationService.ItemTotalCost(item,
                 inventoryPrices.Where(w => w.Key == item.InventoryItem).SelectMany(s => s.Value.Prices))).Sum();
 
-            //  Below is the commented out expanded code.
-            //  Sometime worth leaving this in so junior devs can follow what's going on.
+            ////Below is the commented out expanded code.
+            ////  Sometime worth leaving this in so junior devs can follow what's going on.
             //var totalPrice = 0m;
 
             //totalItems.ToList().ForEach(item =>

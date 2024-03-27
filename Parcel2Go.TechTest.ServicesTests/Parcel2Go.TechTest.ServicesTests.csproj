@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Parcel2Go.TechTest.Repositories\Parcel2Go.TechTest.Repositories.csproj" />
     <ProjectReference Include="..\Parcel2Go.TechTest.Services\Parcel2Go.TechTest.Services.csproj" />
   </ItemGroup>
 
